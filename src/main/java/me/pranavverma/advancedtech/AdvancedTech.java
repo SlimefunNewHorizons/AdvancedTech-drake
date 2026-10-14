@@ -2,7 +2,6 @@
 package me.pranavverma.advancedtech;
 
 
-import com.github.drakescraft_labs.labupdate.DrakesLabsReleaseUpdate;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -53,7 +52,6 @@ public class AdvancedTech extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public void onEnable() {
-        DrakesLabsReleaseUpdate.schedule(this, "AdvancedTech-drake");
 
         instance = this;
 
